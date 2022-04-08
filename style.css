@@ -1,0 +1,206 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:white;
+}
+
+
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.botaoverde{
+  height:38px;
+  background:#78b800;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.caixaescura{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+
+header{
+  background:black;
+  color:white;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#78b800 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #menusuperior{
+  float:left;
+}
+
+header #menusuperior h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .nverde, header .verdesetor a{
+  color:#78b800;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+
+#bannercentral{
+  min-height:400px;
+  background:url('../img/bannernvidia.jpg') no-repeat 0 -20px;
+  text-align:center;
+  color:#ffffff;
+
+ 
+
+
+}
+
+#bannercentral h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#bannercentral p{
+  font-size:20px;
+}
+
+
+#cabeçanovidade{
+  padding:15px;
+  color:#ffffff;
+  background:#35424a
+}
+
+#cabeçanovidade h1{
+  float:left;
+}
+
+#cabeçanovidade form {
+  float:right;
+  margin-top:15px;
+}
+
+#cabeçanovidade input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+
+#caixas{
+  margin-top:20px;
+}
+
+#caixas .caixa{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#caixas .caixa img{
+  width:90px;
+}
+
+
+aside#estilocaixapreta{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+aside#estilocaixapreta .tabelainfo input, aside#estilocaixapreta .tabelainfo textarea{
+  width:90%;
+  padding:5px;
+}
+
+
+article#colunaprincipal{
+  float:left;
+  width:65%;
+}
+
+
+ul#infoplacas li{
+  list-style: none;
+  padding:20px;
+  border: #78b800 solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:black;
+  text-align: center;
+}
+@media(max-width: 768px){
+  header #menusuperior,
+  header nav,
+  header nav li,
+  #cabeçanovidade h1,
+  #cabeçanovidade form,
+  #caixas .caixa,
+  article#colunaprincipal,
+  aside#estilocaixapreta{
+    float:none;
+    text-align:center;
+    width:100%;
+}
+header{
+   padding-bottom:20px;
+}
+
+#bannercentral  h1{
+    margin-top:40px;
+}
+
+#cabeçanovidade button, .tabelainfo button{
+    display:block;
+    width:100%;
+}
+
+#cabeçanovidade form input[type="email"], .tabelainfo input, .tabelainfo textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+}
